@@ -1,0 +1,17 @@
+{
+  "name": "amd-to-requirejs-codeshift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jscodeshift": "^0.6.4"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0"
+  }
+}

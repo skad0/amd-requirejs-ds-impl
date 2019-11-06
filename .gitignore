@@ -1,0 +1,17 @@
+.vscode
+.idea
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+logs
+*.log
+npm-debug.log*
+.npm
+yarn-debug.log*
+yarn-error.log*
+*/yarn.lock
+.env
+node_modules
