@@ -34,11 +34,11 @@ const buildRequire = (j, v, r, filePath) => {
     }
     code += `require('${resolvePath(r.value, filePath)}')`;
   }
-  code += ";";
-  if (code === ";") {
+  code += "$";
+  if (code === "$") {
     code = "";
   }
-  return code;
+  return code.slice(0, -1);
 };
 
 const transformer = function(file, api) {
